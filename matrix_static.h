@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #define FORMAT "%8.3lf"
+#define FORMAT2 "%8d"
 #define MAX_ROW 10
 #define MAX_COL 10
 
@@ -29,6 +30,9 @@ matrix subtract(matrix, matrix);
 matrix negate(matrix);
 matrix multiply(matrix, matrix);
 matrix scalar_multiply(T scalar, matrix);
+matrix transpose(matrix);
+matrix convert(matrix);
+void mint_print(matrix);
 /* remaining function prototypes not shown */
 
 #endif

@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <assert.h>
 #define FORMAT "%8.3lf"
-
+#define FORMAT2 "%8d"
 typedef double T;
 
 typedef struct {
@@ -27,6 +27,9 @@ matrix subtract(matrix, matrix);
 matrix negate(matrix);
 matrix multiply(matrix, matrix);
 matrix scalar_multiply(T scalar, matrix);
+matrix transpose(matrix);
+matrix convert(matrix);
+void mint_print(matrix);
 /* remaining function prototypes not shown */
 
-#endif
+#endif //MATRIXh
