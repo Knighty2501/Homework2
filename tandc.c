@@ -15,7 +15,7 @@ matrix transpose(matrix A_in) {
 	}
 	return A_out;
 }
-matrix convert(matrix A_in) {
+/* matrix convert(matrix A_in) {
 	int i, j;
 	matrix mint;
 	mint = create_empty(A_in.row_dim, A_in.col_dim);
@@ -41,4 +41,4 @@ void mint_print(matrix A_in) {
         }
 	printf("\n");
 	}
-}
+} */

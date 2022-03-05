@@ -74,7 +74,7 @@ void matrix_print(matrix m)
   for (i=0; i<m.row_dim; i++) {
     printf("\n");
     for (j=0; j<m.col_dim; j++) 
-       printf(FORMAT, m.element[i][j]);
+       printf(FORMAT2, m.element[i][j]);
   }
   printf("\n");
 }

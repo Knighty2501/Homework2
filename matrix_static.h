@@ -9,7 +9,7 @@
 #define MAX_ROW 10
 #define MAX_COL 10
 
-typedef double T;
+typedef int T;
 
 typedef struct {
   int  row_dim, col_dim;

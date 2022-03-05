@@ -19,9 +19,9 @@ int main()
   matrix_print(transpose(a));
   printf("\n transposed b: ");
   matrix_print(transpose(b));
-  printf("\n Matrix a elements now in int form");
+/*  printf("\n Matrix a elements now in int form");
   mint_print(convert(c));
   printf("\n Matrix b elements now in int form"); 
-  mint_print(b);
+  mint_print(b); */
 }
 
